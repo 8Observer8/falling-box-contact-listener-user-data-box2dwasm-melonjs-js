@@ -14,7 +14,7 @@ Topic and discussions:
 - Melon.js discussion: https://github.com/melonjs/melonJS/discussions/1192
 - Box2D-WASM discussion: https://github.com/Birch-san/box2d-wasm/discussions/67
 
-![falling-box-contact-listener-user-data-box2dwasm-melonjs-js](https://github.com/8Observer8/falling-box-contact-listener-user-data-box2dwasm-melonjs-js/assets/3908473/105f4318-6a4b-42d3-925d-07e1709e9890)
+![falling-box-contact-listener-user-data-box2dwasm-melonjs-js](https://github.com/8Observer8/falling-box-contact-listener-user-data-box2dwasm-melonjs-js/assets/3908473/61355df2-3344-4f95-bb6e-309563cddee8)
 
 Instruction for building and running the project in debug and release using Rollup:
 
