@@ -1,0 +1,17 @@
+{
+  "name": "falling-box-contact-listener-user-data-box2dwasm-melonjs-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup -cmw",
+    "del-index-map": "del /f /q /s .\\public\\js\\index.js.map",
+    "bundle": "rollup -cm",
+    "minify": "uglifyjs public/js/index.js -o public/js/index.js",
+    "release": "npm run bundle && npm run minify && npm run del-index-map"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

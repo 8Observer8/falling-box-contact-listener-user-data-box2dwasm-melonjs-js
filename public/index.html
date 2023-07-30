@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Falling box, contact listener, user data using Box2D-WASM, Melon.js, and JavaScript</title>
+</head>
+
+<body style="caret-color: transparent;">
+    <p>Buy me a coffee: <a href="https://boosty.to/ivan_8observer8/donate" target="_blank">https://boosty.to/ivan_8observer8/donate</a> This service supports PayPal. You can perform single sign-on with your Google account.</p>
+
+    <p><a href="https://github.com/8Observer8/falling-box-contact-listener-user-data-box2dwasm-melonjs-js" target="_blank">GitHub repository</a></p>
+
+    <p>Playgrounds/Sandboxes:</p>
+
+    <ul>
+        <li><a href="https://replit.com/@8Observer8/Falling-box-contact-listener-Box2D-WASM-MelonJS-JS" target="_blank">Replit</a></li>
+        <li><a href="https://plnkr.co/edit/pEngeORqyQZrtDBf?preview" target="_blank">Plunker</a></li>
+        <li><a href="https://glitch.com/edit/#!/berry-denim-chronometer" target="_blank">Glitch</a></li>
+    </ul>
+
+    <p>Topic and discussions:</p>
+
+    <ul>
+        <li><a href="https://melonjs.discourse.group/t/the-debug-drawer-of-box2d-wasm-colliders-using-melon-js-and-javascript/56">Melon.js topic</a></li>
+        <li><a href="https://github.com/melonjs/melonJS/discussions/1192">Melon.js discussion</a></li>
+        <li><a href="https://github.com/Birch-san/box2d-wasm/discussions/67">Box2D-WASM discussion</a></li>
+    </ul>
+
+    <p>Open your browser console (Ctrl+Shift+J in Chrome) and run the app to see the result.</p>
+
+    <!-- Since import maps are not yet supported by all browsers, its is
+        necessary to add the polyfill es-module-shims.js -->
+    <script async src="https://unpkg.com/es-module-shims@1.7.3/dist/es-module-shims.js"></script>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "box2d-wasm": "https://8observer8.github.io/lib/box2d-wasm-7.0.0-box2d-2.4.1/box2d-wasm.min.js",
+                "melonjs": "https://cdn.jsdelivr.net/npm/melonjs@15.7.0/+esm"
+            }
+        }
+    </script>
+
+    <script type="module" src="./js/index.js"></script>
+</body>
+
+</html>
