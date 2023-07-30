@@ -10,7 +10,7 @@ Playgrounds:
 
 Topic and discussions:
 
-- Melon.js topic: https://melonjs.discourse.group/t/the-debug-drawer-of-box2d-wasm-colliders-using-melon-js-and-javascript/56
+- Melon.js topic: https://melonjs.discourse.group/t/basic-examples-of-using-box2d-wasm-with-melon-js-in-javascript/57
 - Melon.js discussion: https://github.com/melonjs/melonJS/discussions/1192
 - Box2D-WASM discussion: https://github.com/Birch-san/box2d-wasm/discussions/67
 
