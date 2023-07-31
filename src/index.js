@@ -7,7 +7,7 @@ me.device.onReady(
     () => {
         if (!me.video.init(300, 300, {
                 parent: "screen",
-                renderer: me.video.AUTO,
+                renderer: me.video.CANVAS,
                 scale: "fit",
                 antiAlias: true
             })) //
